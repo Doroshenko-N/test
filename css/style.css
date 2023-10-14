@@ -269,6 +269,9 @@ body {
 
     .main__item {
         min-width: 229px;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 calc(33.333% - 15px);
+        flex: 0 1 calc(33.333% - 15px);
         background-size: 199px 90px;
     }
 
@@ -336,7 +339,7 @@ body {
     .header__search {
         border: none;
         border-top: 1px solid #EBEBF1;
-        border-radius: none;
+        border-radius: 0;
         padding-left: 48px;
     }
 
@@ -362,8 +365,8 @@ body {
 
     .main__item {
         -webkit-box-flex: 0;
-        -ms-flex: 0 0 calc(50% - 20px);
-        flex: 0 0 calc(50% - 20px);
+        -ms-flex: 0 0 calc(50% - 10px);
+        flex: 0 0 calc(50% - 10px);
     }
 }
 
